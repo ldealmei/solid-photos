@@ -21,14 +21,14 @@
 
 import { useSession } from "@inrupt/solid-ui-react";
 import Profile from "../components/profile";
+import Preview from "../components/preview";
 
 export default function Home() {
   const { session } = useSession();
 
   return (
     <div>
-      <h1>Demo</h1>
-      {session.info.isLoggedIn && <Profile />}
+      {session.info.isLoggedIn && <Preview />}
     </div>
   );
 }
