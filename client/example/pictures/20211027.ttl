@@ -1,0 +1,15 @@
+@prefix : <#>.
+@prefix solp: <../res/>.
+@prefix schema: <http://schema.org/>.
+
+:picture1
+    schema:author "Android Phone" ;
+    schema:name "IMG_20211027_112104.jpg" ;
+    schema:url  solp:IMG_20211027_112104.jpg ;
+    schema:dateCreated "2021-10-27T11:21:04" .
+
+:picture2
+    schema:author "Android Phone" ;
+    schema:name "IMG_20211027_112052.jpg" ;
+    schema:url  solp:IMG_20211027_112052.jpg ;
+    schema:dateCreated "2021-10-27T11:20:52" .

@@ -1,0 +1,7 @@
+@prefix : <#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+:library
+	a vcard:Group ;
+    vcard:hasMember <./pictures/20211027.ttl#picture1> ;
+    vcard:hasMember <./pictures/20211027.ttl#picture2> .
