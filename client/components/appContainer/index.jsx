@@ -40,7 +40,6 @@ import { SessionProvider } from "@inrupt/solid-ui-react";
 
 import Header from "../header";
 import Nav from "../nav";
-import Footer from "../footer";
 
 import config from "../../config";
 import theme from "../../src/theme";
@@ -72,7 +71,6 @@ function AppContainer({ children }) {
               <Container>{children}</Container>
             </main>
 
-            <Footer />
 
             <div className={bem("app-layout__mobile-nav-push")} />
           </div>

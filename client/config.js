@@ -24,6 +24,6 @@ export default () => ({
   libraryRepoUrl: packageJson.repository.url,
   demoRepoUrl: packageJson.repository.demo,
   copyright: "Copyright 2021 Inrupt, Inc.",
-  demoTitle: "Test react SDK project",
-  demoDescription: "An example project using the inrupt react SDK",
+  demoTitle: "Photos",
+  demoDescription: "A Solid-based photos app",
 });

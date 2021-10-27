@@ -48,7 +48,7 @@ export default function Header() {
           <a data-testid={TESTCAFE_ID_HEADER_LOGO}>
             <img
               height={40}
-              src="/inrupt_logo-2020.svg"
+              src="/cute-monster.png"
               className={bem("header-banner__logo-image")}
               alt="Inrupt PodBrowser"
             />
